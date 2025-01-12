@@ -1,27 +1,32 @@
 *{
-    margin: 0%;
+    margin: 0px;
+    
 }
 header{
-    position: sticky;
-    background-color: goldenrod;
-    padding-left: 7%;
-    padding-right: 7%;
+    background-color: chocolate;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 a{
     text-decoration: none;
 }
 ul{
+    gap: 30px;
     display: flex;
-    gap: 40px;
-    text-align: none;
-    padding: 30px;
+    list-style: none;
 }
-body{background-image: url(./image/IMG_20241231_205950_739~3.jpg);
+.fa-solid {
+    display: none;
 }
+
+
+
+
+
 firstsection
-.img{
+.bb{
     display: flex;
     justify-content: space-between;
 }
@@ -44,8 +49,13 @@ firstsection
     -webkit-text-stroke-color: rgb(241, 7, 7);
     color:transparent
 }
+
+
+
+
 secondsection
 .parent{
+    
     display: flex;
     gap: 10px;
 }
@@ -62,17 +72,144 @@ secondsection
     background-color: rgb(124, 92, 4);
     text-align: center;
 }
-.form{
-    display: flex;
-    gap: 20px;
+.dj{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(207, 126, 19);
+    color: rgb(226, 24, 17);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 7, 7);
+    color:transparent
 }
-.contact{
-    background-color: black;
-    color: rgb(226, 121, 0);
+
+
+
+.blog{
+    background-color: rgb(218, 167, 102);
+    text-align: center;
+    padding: 30px;
+    padding-top: 50px;
 }
-.input{
-    background-color: rgb(182, 125, 39);
-    padding: 80px;
-    padding-top: 450px;
+.all{
+    font-size: xx-large;
+    color: brown;
+}
+
+
+
+
+.mom{
+    text-align: center;
+    background-color: rgb(219, 112, 35);
+    padding: 20px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+.coke{
+    text-align: center;
+    background-color: rgb(218, 103, 22);
+    padding: 20px;
+    padding-bottom: 65px;
+    padding-top: 65px;
+}
+
+
+.dj{
+    padding: 30px;
+    padding-bottom: 40px;
+    background-color: rgb(207, 126, 19);
+    color: rgb(226, 24, 17);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(241, 7, 7);
+    color:transparent
+}
+body{
+    background-image: url(./image/IMG-20241015-WA0001.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    header .fa-solid {
+        display: block;
+    }	
+
+    nav {
+        width: 50%;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        background-color: blue;
+        right: -50%;
+        transition: 1s;
+
+a{
+    text-decoration: none;
+}	
+
+img {
+    width: 100%;
+}
+a {
+    color: brown;
+}
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    li {
+        padding: 20px;
+    }
+    
 }
 
