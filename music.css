@@ -3,7 +3,9 @@
     
 }
 header{
-    background-color: chocolate;
+    position: sticky;
+    top: 0%;
+    background-color: rgb(236, 216, 128);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,10 +27,10 @@ ul{
 
 
 
-firstsection
-.bb{
+/*firstsection*/
+.bb {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 }
 .music{
     padding-bottom: 60px;
@@ -53,7 +55,7 @@ firstsection
 
 
 
-secondsection
+/*secondsection*/
 .parent{
     
     display: flex;
@@ -175,7 +177,6 @@ body{
 
 
 
-
 @media (max-width:768px){
 
     header .fa-solid {
@@ -187,9 +188,9 @@ body{
         position: fixed;
         top: 0;
         height: 100%;
-        background-color: blue;
+        background-color: cyan;
         right: -50%;
-        transition: 1s;
+        transition: 2s;
 
 a{
     text-decoration: none;
@@ -209,6 +210,37 @@ a {
 
     li {
         padding: 20px;
+    }
+    header{
+        background-color: rgb(241, 171, 145);
+    }
+    .dj{
+        background-color: rgb(230, 131, 96);
+    }
+    .coke{
+        background-color: rgb(227, 243, 243);
+    }
+    .mom{
+        background-color: bisque;
+    }
+    .blog{
+        background-color: rgb(164, 216, 209);
+    }
+    body{
+        background-color: rgb(231, 141, 4);
+    }
+    .about{
+        background-color: bisque;
+    }
+
+    .dd{
+        background-color:rgb(238, 240, 236) ;
+    }
+    .music{
+        background-color: darkgoldenrod;
+    }
+    .bb{
+        flex-direction: column;
     }
     
 }
